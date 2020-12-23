@@ -40,7 +40,7 @@ def gradientDescent(x,y,alpha,beta,itterations):
 ###########################################################################
 # Beta solution
 optimal_beta,J_history = gradientDescent(x,y,alpha,beta,itterations)
-minimal_cost = cost(beta)
+minimal_cost = cost(optimal_beta)
 print('\u03B20=', optimal_beta[0], ',\u03B21=',optimal_beta[1],'\nJ(\u03B20,\u03B21)=',minimal_cost)
 
 ###########################################################################
