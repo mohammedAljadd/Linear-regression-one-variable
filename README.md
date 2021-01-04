@@ -70,7 +70,7 @@ J(β0,β1)= [[0.44146884]]
     plt.ylabel('Cost function J')
     plt.show()
     
-![alt text](https://github.com/mohammedAljadd/Linear-regression-with-one-variable/blob/main/images%20for%20explanation/j_history.PNG)
+![alt text](https://github.com/mohammedAljadd/j_history.PNG)
 
 # Plot of fitting line and the data
 
@@ -82,7 +82,7 @@ J(β0,β1)= [[0.44146884]]
     plt.plot(x[:,1], y, 'o',label='training data')
     plt.legend()
     
-![alt text](https://github.com/mohammedAljadd/Linear-regression-with-one-variable/blob/main/images%20for%20explanation/fit.PNG)
+![alt text](https://github.com/mohammedAljadd/fit.PNG)
 
  # Performance of regression 
  
@@ -115,7 +115,7 @@ J(β0,β1)= [[0.44146884]]
     ax.view_init(elev=35, azim=40)
     ax.plot_surface(Xs, Ys, Zs, cmap=cm.jet,alpha=1) # colormap : jet , alpha : degree of transparency (0-1)
     
-![alt text](https://github.com/mohammedAljadd/Linear-regression-with-one-variable/blob/main/images%20for%20explanation/3d_cost.PNG)
+![alt text](https://github.com/mohammedAljadd/3d_cost.PNG)
 
 # Contour plot of the cost function
 
@@ -127,7 +127,7 @@ J(β0,β1)= [[0.44146884]]
     h1,_ = cntr.legend_elements()
     ax.legend([h1[0]], ['Contours'])
     
-![alt text](https://github.com/mohammedAljadd/Linear-regression-with-one-variable/blob/main/images%20for%20explanation/countour.PNG)
+![alt text](https://github.com/mohammedAljadd/countour.PNG)
 
 The red point is the minimum of our cost function.
 
